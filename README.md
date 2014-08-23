@@ -34,7 +34,9 @@ script. These steps will be outlined below:
 * ???
 * Profit
 
-Once the script has finished running you can use the following command to read the tidyDataset back into R:
+Once the script has finished running you will have a file "tidyData.txt" written to your working directory and the intermediate dataset still in your R workspace
+
+You can use the following command to read the tidyDataset back into R:
 
 `tidyData <- read.table("./tidyDataset.txt",header = TRUE)`
 
