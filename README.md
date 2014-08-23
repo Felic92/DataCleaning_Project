@@ -49,8 +49,8 @@ I will use the requirements of the script to discuss decisions I made in regards
  * This was fairly straight forward I used `read.table("filename")` to load data from each file into dataframes in R
  * Once in R using `dim()` it was easy to see which dataframes could be fit together, `rbind(testData,trainData)` then `cbind(activityData,subjectData,MeasurementData)`, to yield the complete dataset
  
- * Extracts only the measurements on the mean and standard deviation for each measurement.
-    * This was a simple exercise in subsetting data I found it advantegous to use `grep()` here to get features which contained the desired patterns in their names: `sensor_data <- sensor_data[,grep("mean|std",colnames(sensor_data))]`
+* Extracts only the measurements on the mean and standard deviation for each measurement.
+	* This was a simple exercise in subsetting data I found it advantegous to use `grep()` here to get features which contained the desired patterns in their names: `sensor_data <- sensor_data[,grep("mean|std",colnames(sensor_data))]`
     
 * Uses descriptive activity names to name the activities in the data set
     * This was also an exercise in subsetting and while I originally had a line for each of the 6 replacements, which is commented out at the bottom of my script I chose to replace this with a loop to replace numerical activity codes with their textual descriptions
