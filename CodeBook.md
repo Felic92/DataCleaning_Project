@@ -6,19 +6,20 @@ subject [1-30] / Activity[1-6] combination
 
 Meaning of Feature Components
 ---------
-      t: measurement is in in the time domain     
-      f: measurement is in the frequency domain (using FFT)    
-      Acceleration: linear acceleration as measured by accelerometer  
-      Gyroscope: angular velocity as measured by gyroscope  
-      Body: measurement is related to subject's body 
-      Gravity: measurement is related to Earth's gravity   
-		Jerk: jerk signals obtained as a result of analysis 
-		Magnitude: magnitude of the signal 
-		Mean: mean of the signal 
-		StandardDeviation: standard deviation of the signal    
-		Xaxis: measured along X-axis   
-      Yaxis: measured along Y-axis  
-      Zaxis: measured along Z-axis  
+
+	t: measurement is in in the time domain     
+	f: measurement is in the frequency domain (using FFT)    
+	Acceleration: linear acceleration as measured by accelerometer  
+	Gyroscope: angular velocity as measured by gyroscope  
+	Body: measurement is related to subject's body 
+	Gravity: measurement is related to Earth's gravity   
+	Jerk: jerk signals obtained as a result of analysis 
+	Magnitude: magnitude of the signal 
+	Mean: mean of the signal 
+	StandardDeviation: standard deviation of the signal    
+	Xaxis: measured along X-axis   
+	Yaxis: measured along Y-axis  
+	Zaxis: measured along Z-axis  
 
 Features
 -----
