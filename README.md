@@ -73,3 +73,4 @@ Additional Notes
 ==============
 
 * In the script I periodically utilized `rm()` to free up memory being taken up by variables which were no longer going to be used
+* could have made this into a function but chose not to 
