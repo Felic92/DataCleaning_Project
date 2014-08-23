@@ -36,25 +36,6 @@ You should create one R script called run_analysis.R that does the following.
 * Appropriately labels the data set with descriptive variable names. 
 * Creates a second, independent tidy data set with the average of each variable for each activity and each subject. 
 
-Notes on what to do before running the script
---------------
-
-For this assignment I have prepared only one script the required "run_analysis.R". For this script to run properly 
-and transforms the raw dataset into the desired tidy dataset few steps must be taken before actually executing the 
-script. These steps will be outlined below:
-
-* Download the data using the following link. [Click here for data!](https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip)
-    * While I realize that it would be advantageous for the script to automate all the required data acquisition I was not able to get this step automated properly so I have left it to the user. 
-    
-* Extract the data into a directory names "phoneData" and ensure this directory is in your current working directory
-* Download the "run_analysis.R" script from Github and ensure it is also in your current working directory
-* Run the script if using R Studio `source("run_analysis.R")` will do this. 
-* ???
-* Profit
-
-Once the script has finished running you can use the following command to read the tidyDataset back into R:
-
-`tidyData <- read.table("./tidyDataset.txt",header = TRUE)`
 
 Notes on Implementation Decisions 
 -----------------
@@ -62,6 +43,8 @@ Notes on Implementation Decisions
 An interesting component of projects like this one is that there exist so many different ways of reaching the desired outcome for this reason I thought it would be appropriate to breifly outline some decisions I personally made in regards to this project and why I chose them opposed to other courses of action. 
 
 I will use the requirements of the script to discuss decisions I made in regards to each of the 5 steps even though my script doesn't exactaly perform each of the steps in a linear order, but rather I performs certain actions when I felt it was most convenient to do so. 
+
+* I automated the process of data collection by using `download.file()`  and `unzip` to retrieve and extract the data into a folder named "UCI HAR Dataset" in your working directory
 
 * Merges the training and the test sets to create one data set.
  * This was fairly straight forward I used `read.table("filename")` to load data from each file into dataframes in R
@@ -86,7 +69,10 @@ I will use the requirements of the script to discuss decisions I made in regards
     * By subsetting the data to only include measurement columns before passing it to aggregate I avoided the introduction of 2 columns which would have been the aggregations of the two non measurement features `subjectId` and `activityLabel`. Aggregate did however change the names of these columes I was able to use the `library(plyr)` and one line of code to fix this however.:
     *`tidyDataset <- rename(tidyDataset, c("Group.1"="subjectId", "Group.2"="activityLabel"))`
     
-    
+Once the script has finished running you can use the following command to read the tidyDataset back into R:
+
+`tidyData <- read.table("./tidyDataset.txt",header = TRUE)`
+
 Additional Notes
 ==============
 
