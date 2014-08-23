@@ -21,159 +21,165 @@ Features
     6. LAYING
     
     tBodyAccelerationMeanXaxis  Type: Numeric   Width: 10   Range: [-1,1]
+    The mean of the mean body acceleration on the X-axis for each subject activity combination
     
     tBodyAccelerationMeanYaxis Type: Numeric   Width: 10   Range: [-1,1]
+    The mean of the mean body acceleration on the Y-axis for each subject activity combination
     
     tBodyAccelerationMeanZaxis Type: Numeric   Width: 10   Range: [-1,1]
+    The mean of the mean body acceleration on the Z-axis for each subject activity combination
     
-    tBodyAccelerationStandardDeviationXaxis
+    tBodyAccelerationStandardDeviationXaxis Type: Numeric   Width: 10   Range: [-1,1]
+    The mean of the standard deviation body acceleration on the X-axis for each subject activity combination
     
-    tBodyAccelerationStandardDeviationYaxis
+    tBodyAccelerationStandardDeviationYaxis Type: Numeric   Width: 10   Range: [-1,1]
+    The mean of the standard deviation body acceleration on the Y-axis for each subject activity combination
     
-    tBodyAccelerationStandardDeviationZaxis
+    tBodyAccelerationStandardDeviationZaxis Type: Numeric   Width: 10   Range: [-1,1]
+    The mean of the standard deviation body acceleration on the Z-axis for each subject activity combination
     
-    tGravityAccelerationMeanXaxis
+    tGravityAccelerationMeanXaxis   Type: Numeric   Width: 10   Range: [-1,1]
     
-    tGravityAccelerationMeanYaxis
+    tGravityAccelerationMeanYaxis   Type: Numeric   Width: 10   Range: [-1,1]
     
-    tGravityAccelerationMeanZaxis
+    tGravityAccelerationMeanZaxis   Type: Numeric   Width: 10   Range: [-1,1]
     
-    tGravityAccelerationStandardDeviationXaxis
+    tGravityAccelerationStandardDeviationXaxis  Type: Numeric   Width: 10   Range: [-1,1]
     
-    tGravityAccelerationStandardDeviationYaxis
+    tGravityAccelerationStandardDeviationYaxis  Type: Numeric   Width: 10   Range: [-1,1]
     
-    tGravityAccelerationStandardDeviationZaxis
+    tGravityAccelerationStandardDeviationZaxis  Type: Numeric   Width: 10   Range: [-1,1]
     
-    tBodyAccelerationJerkMeanXaxis
+    tBodyAccelerationJerkMeanXaxis  Type: Numeric   Width: 10   Range: [-1,1]
     
-    tBodyAccelerationJerkMeanYaxis
+    tBodyAccelerationJerkMeanYaxis  Type: Numeric   Width: 10   Range: [-1,1]
     
-    tBodyAccelerationJerkMeanZaxis
+    tBodyAccelerationJerkMeanZaxis  Type: Numeric   Width: 10   Range: [-1,1]
     
-    tBodyAccelerationJerkStandardDeviationXaxis
+    tBodyAccelerationJerkStandardDeviationXaxis Type: Numeric   Width: 10   Range: [-1,1]
     
-    tBodyAccelerationJerkStandardDeviationYaxis
+    tBodyAccelerationJerkStandardDeviationYaxis Type: Numeric   Width: 10   Range: [-1,1]
     
-    tBodyAccelerationJerkStandardDeviationZaxis
+    tBodyAccelerationJerkStandardDeviationZaxis Type: Numeric   Width: 10   Range: [-1,1]
     
-    tBodyGyroscopeMeanXaxis
+    tBodyGyroscopeMeanXaxis Type: Numeric   Width: 10   Range: [-1,1]
     
-    tBodyGyroscopeMeanYaxis
+    tBodyGyroscopeMeanYaxis Type: Numeric   Width: 10   Range: [-1,1]
     
-    tBodyGyroscopeMeanZaxis
+    tBodyGyroscopeMeanZaxis Type: Numeric   Width: 10   Range: [-1,1]
     
-    tBodyGyroscopeStandardDeviationXaxis
+    tBodyGyroscopeStandardDeviationXaxis    Type: Numeric   Width: 10   Range: [-1,1]
     
-    tBodyGyroscopeStandardDeviationYaxis
+    tBodyGyroscopeStandardDeviationYaxis    Type: Numeric   Width: 10   Range: [-1,1]
     
-    tBodyGyroscopeStandardDeviationZaxis
+    tBodyGyroscopeStandardDeviationZaxis    Type: Numeric   Width: 10   Range: [-1,1]
     
-    tBodyGyroscopeJerkMeanXaxis
+    tBodyGyroscopeJerkMeanXaxis Type: Numeric   Width: 10   Range: [-1,1]
     
-    tBodyGyroscopeJerkMeanYaxis
+    tBodyGyroscopeJerkMeanYaxis Type: Numeric   Width: 10   Range: [-1,1]
     
-    tBodyGyroscopeJerkMeanZaxis
+    tBodyGyroscopeJerkMeanZaxis Type: Numeric   Width: 10   Range: [-1,1]
     
-    tBodyGyroscopeJerkStandardDeviationXaxis
+    tBodyGyroscopeJerkStandardDeviationXaxis    Type: Numeric   Width: 10   Range: [-1,1]
     
-    tBodyGyroscopeJerkStandardDeviationYaxis
+    tBodyGyroscopeJerkStandardDeviationYaxis    Type: Numeric   Width: 10   Range: [-1,1]
     
-    tBodyGyroscopeJerkStandardDeviationZaxis
+    tBodyGyroscopeJerkStandardDeviationZaxis    Type: Numeric   Width: 10   Range: [-1,1]
     
-    tBodyAccelerationMagnitudeMean
+    tBodyAccelerationMagnitudeMean  Type: Numeric   Width: 10   Range: [-1,1]
     
-    tBodyAccelerationMagnitudeStandardDeviation
+    tBodyAccelerationMagnitudeStandardDeviation Type: Numeric   Width: 10   Range: [-1,1]
     
     tGravityAccelerationMagnitudeMean
     
-    tGravityAccelerationMagnitudeStandardDeviation
+    tGravityAccelerationMagnitudeStandardDeviation  Type: Numeric   Width: 10   Range: [-1,1]
     
-    tBodyAccelerationJerkMagnitudeMean
+    tBodyAccelerationJerkMagnitudeMean  Type: Numeric   Width: 10   Range: [-1,1]
     
-    tBodyAccelerationJerkMagnitudeStandardDeviation
+    tBodyAccelerationJerkMagnitudeStandardDeviation Type: Numeric   Width: 10   Range: [-1,1]
     
-    tBodyGyroscopeMagnitudeMean
+    tBodyGyroscopeMagnitudeMean Type: Numeric   Width: 10   Range: [-1,1]
     
-    tBodyGyroscopeMagnitudeStandardDeviation
+    tBodyGyroscopeMagnitudeStandardDeviation    Type: Numeric   Width: 10   Range: [-1,1]
     
-    tBodyGyroscopeJerkMagnitudeMean
+    tBodyGyroscopeJerkMagnitudeMean Type: Numeric   Width: 10   Range: [-1,1]
     
-    tBodyGyroscopeJerkMagnitudeStandardDeviation
+    tBodyGyroscopeJerkMagnitudeStandardDeviation    Type: Numeric   Width: 10   Range: [-1,1]
     
-    fBodyAccelerationMeanXaxis
+    fBodyAccelerationMeanXaxis  Type: Numeric   Width: 10   Range: [-1,1]
     
-    fBodyAccelerationMeanYaxis
+    fBodyAccelerationMeanYaxis  Type: Numeric   Width: 10   Range: [-1,1]
     
-    fBodyAccelerationMeanZaxis
+    fBodyAccelerationMeanZaxis  Type: Numeric   Width: 10   Range: [-1,1]
     
-    fBodyAccelerationStandardDeviationXaxis
+    fBodyAccelerationStandardDeviationXaxis Type: Numeric   Width: 10   Range: [-1,1]
     
-    fBodyAccelerationStandardDeviationYaxis
+    fBodyAccelerationStandardDeviationYaxis Type: Numeric   Width: 10   Range: [-1,1]
     
-    fBodyAccelerationStandardDeviationZaxis
+    fBodyAccelerationStandardDeviationZaxis Type: Numeric   Width: 10   Range: [-1,1]
     
-    fBodyAccelerationMeanFrequencyXaxis
+    fBodyAccelerationMeanFrequencyXaxis Type: Numeric   Width: 10   Range: [-1,1]
     
-    fBodyAccelerationMeanFrequencyYaxis
+    fBodyAccelerationMeanFrequencyYaxis Type: Numeric   Width: 10   Range: [-1,1]
     
-    fBodyAccelerationMeanFrequencyZaxis
+    fBodyAccelerationMeanFrequencyZaxis Type: Numeric   Width: 10   Range: [-1,1]
     
-    fBodyAccelerationJerkMeanXaxis
+    fBodyAccelerationJerkMeanXaxis  Type: Numeric   Width: 10   Range: [-1,1]
     
-    fBodyAccelerationJerkMeanYaxis
+    fBodyAccelerationJerkMeanYaxis  Type: Numeric   Width: 10   Range: [-1,1]
     
-    fBodyAccelerationJerkMeanZaxis
+    fBodyAccelerationJerkMeanZaxis  Type: Numeric   Width: 10   Range: [-1,1]
     
-    fBodyAccelerationJerkStandardDeviationXaxis
+    fBodyAccelerationJerkStandardDeviationXaxis Type: Numeric   Width: 10   Range: [-1,1]
     
-    fBodyAccelerationJerkStandardDeviationYaxis
+    fBodyAccelerationJerkStandardDeviationYaxis Type: Numeric   Width: 10   Range: [-1,1]
     
-    fBodyAccelerationJerkStandardDeviationZaxis
+    fBodyAccelerationJerkStandardDeviationZaxis Type: Numeric   Width: 10   Range: [-1,1]
     
-    fBodyAccelerationJerkMeanFrequencyXaxis
+    fBodyAccelerationJerkMeanFrequencyXaxis Type: Numeric   Width: 10   Range: [-1,1]
     
-    fBodyAccelerationJerkMeanFrequencyYaxis
+    fBodyAccelerationJerkMeanFrequencyYaxis Type: Numeric   Width: 10   Range: [-1,1]
     
-    fBodyAccelerationJerkMeanFrequencyZaxis
+    fBodyAccelerationJerkMeanFrequencyZaxis Type: Numeric   Width: 10   Range: [-1,1]
     
-    fBodyGyroscopeMeanXaxis
+    fBodyGyroscopeMeanXaxis Type: Numeric   Width: 10   Range: [-1,1]
     
-    fBodyGyroscopeMeanYaxis
+    fBodyGyroscopeMeanYaxis Type: Numeric   Width: 10   Range: [-1,1]
     
-    fBodyGyroscopeMeanZaxis
+    fBodyGyroscopeMeanZaxis Type: Numeric   Width: 10   Range: [-1,1]
     
-    fBodyGyroscopeStandardDeviationXaxis
+    fBodyGyroscopeStandardDeviationXaxis    Type: Numeric   Width: 10   Range: [-1,1]
     
-    fBodyGyroscopeStandardDeviationYaxis
+    fBodyGyroscopeStandardDeviationYaxis    Type: Numeric   Width: 10   Range: [-1,1]
     
-    fBodyGyroscopeStandardDeviationZaxis
+    fBodyGyroscopeStandardDeviationZaxis    Type: Numeric   Width: 10   Range: [-1,1]
     
-    fBodyGyroscopeMeanFrequencyXaxis
+    fBodyGyroscopeMeanFrequencyXaxis    Type: Numeric   Width: 10   Range: [-1,1]
     
-    fBodyGyroscopeMeanFrequencyYaxis
+    fBodyGyroscopeMeanFrequencyYaxis    Type: Numeric   Width: 10   Range: [-1,1]
     
-    fBodyGyroscopeMeanFrequencyZaxis
+    fBodyGyroscopeMeanFrequencyZaxis    Type: Numeric   Width: 10   Range: [-1,1]
     
-    fBodyAccelerationMagnitudeMean
+    fBodyAccelerationMagnitudeMean  Type: Numeric   Width: 10   Range: [-1,1]
     
-    fBodyAccelerationMagnitudeStandardDeviation
+    fBodyAccelerationMagnitudeStandardDeviation Type: Numeric   Width: 10   Range: [-1,1]
     
-    fBodyAccelerationMagnitudeMeanFrequency
+    fBodyAccelerationMagnitudeMeanFrequency Type: Numeric   Width: 10   Range: [-1,1]
     
-    fBodyBodyAccelerationJerkMagnitudeMean
+    fBodyBodyAccelerationJerkMagnitudeMean  Type: Numeric   Width: 10   Range: [-1,1]
     
-    fBodyBodyAccelerationJerkMagnitudeStandardDeviation
+    fBodyBodyAccelerationJerkMagnitudeStandardDeviation Type: Numeric   Width: 10   Range: [-1,1]
     
-    fBodyBodyAccelerationJerkMagnitudeMeanFrequency
+    fBodyBodyAccelerationJerkMagnitudeMeanFrequency Type: Numeric   Width: 10   Range: [-1,1]
     
-    fBodyBodyGyroscopeMagnitudeMean
+    fBodyBodyGyroscopeMagnitudeMean Type: Numeric   Width: 10   Range: [-1,1]
     
-    fBodyBodyGyroscopeMagnitudeStandardDeviation
+    fBodyBodyGyroscopeMagnitudeStandardDeviation    Type: Numeric   Width: 10   Range: [-1,1]
     
-    fBodyBodyGyroscopeMagnitudeMeanFrequency
+    fBodyBodyGyroscopeMagnitudeMeanFrequency    Type: Numeric   Width: 10   Range: [-1,1]
     
-    fBodyBodyGyroscopeJerkMagnitudeMean
+    fBodyBodyGyroscopeJerkMagnitudeMean Type: Numeric   Width: 10   Range: [-1,1]
     
-    fBodyBodyGyroscopeJerkMagnitudeStandardDeviation
+    fBodyBodyGyroscopeJerkMagnitudeStandardDeviation    Type: Numeric   Width: 10   Range: [-1,1]
     
-    fBodyBodyGyroscopeJerkMagnitudeMeanFrequency
+    fBodyBodyGyroscopeJerkMagnitudeMeanFrequency    Type: Numeric   Width: 10   Range: [-1,1]
