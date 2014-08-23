@@ -1,20 +1,25 @@
+#Downloads extracts contents of source into "UCI HAR Dataset"folder in working directory
+temp <- tempfile()
+download.file("https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip",temp,method="curl")
+unzip(temp)
+
 #Identifies the subjects[1,30] who performed the activity
-subject_test <- read.table("./phoneData/test/subject_test.txt")
-subject_train <- read.table("./phoneData/train/subject_train.txt")
+subject_test <- read.table("./UCI HAR Dataset/test/subject_test.txt")
+subject_train <- read.table("./UCI HAR Dataset/train/subject_train.txt")
 
 # Read in the training data
-X_train <- read.table("./phoneData/train/X_train.txt")
-Y_train <- read.table("./phoneData/train/y_train.txt")
+X_train <- read.table("./UCI HAR Dataset/train/X_train.txt")
+Y_train <- read.table("./UCI HAR Dataset/train/y_train.txt")
 
 # Read in the testing data
-X_test <- read.table("./phoneData/test/X_test.txt")
-Y_test <- read.table("./phoneData/test/y_test.txt")
+X_test <- read.table("./UCI HAR Dataset/test/X_test.txt")
+Y_test <- read.table("./UCI HAR Dataset/test/y_test.txt")
 
 # rbind the X_test data to the X_train data
 sensor_data <- rbind(X_test,X_train)
 
 # Read in the feature labels 
-feature_labels <- read.table("./phoneData/features.txt",stringsAsFactors = FALSE)
+feature_labels <- read.table("./UCI HAR Dataset/features.txt",stringsAsFactors = FALSE)
 
 # Subset the desired column names from the data frame
 feature_names <- feature_labels$V2
@@ -67,7 +72,7 @@ library(plyr)
 tidyDataset <- rename(tidyDataset, c("Group.1"="subjectId", "Group.2"="activityLabel"))
 
 # Write tidy dataset to a file and remove it from workspace
-write.table(tidyDataset,file="tidayDataset.txt",row.names=FALSE)
+write.table(tidyDataset,file="tidyDataset.txt",row.names=FALSE)
 rm(tidyDataset)
 
 #To read the data frame into R uncommet the following command 
