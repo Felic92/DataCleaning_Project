@@ -1,6 +1,19 @@
 Getting And Cleaning Data Project
 ======
 
+Original Study Overview
+------------
+The experiments have been carried out with a group of 30 volunteers within an age bracket of 19-48 years. Each person performed six activities (WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING) wearing a smartphone (Samsung Galaxy S II) on the waist. Using its embedded accelerometer and gyroscope, we captured 3-axial linear acceleration and 3-axial angular velocity at a constant rate of 50Hz. The experiments have been video-recorded to label the data manually. The obtained dataset has been aggregated into a dataset with means of data only.
+
+#####Investigators
+Jorge L. Reyes-Ortiz, Davide Anguita, Alessandro Ghio, Luca Oneto
+Smartlab - Non Linear Complex Systems Laboratory
+DITEN - Università degli Studi di Genova
+Via Opera Pia 11A, I-16145, Genoa, Italy
+activityrecognition@smartlab.ws 
+www.smartlab.ws 
+
+
 Project Overview
 -----
 
@@ -34,9 +47,7 @@ script. These steps will be outlined below:
 * ???
 * Profit
 
-Once the script has finished running you will have a file "tidyData.txt" written to your working directory and the intermediate dataset still in your R workspace
-
-You can use the following command to read the tidyDataset back into R:
+Once the script has finished running you can use the following command to read the tidyDataset back into R:
 
 `tidyData <- read.table("./tidyDataset.txt",header = TRUE)`
 
@@ -51,8 +62,8 @@ I will use the requirements of the script to discuss decisions I made in regards
  * This was fairly straight forward I used `read.table("filename")` to load data from each file into dataframes in R
  * Once in R using `dim()` it was easy to see which dataframes could be fit together, `rbind(testData,trainData)` then `cbind(activityData,subjectData,MeasurementData)`, to yield the complete dataset
  
-* Extracts only the measurements on the mean and standard deviation for each measurement.
-	* This was a simple exercise in subsetting data I found it advantegous to use `grep()` here to get features which contained the desired patterns in their names: `sensor_data <- sensor_data[,grep("mean|std",colnames(sensor_data))]`
+ * Extracts only the measurements on the mean and standard deviation for each measurement.
+    * This was a simple exercise in subsetting data I found it advantegous to use `grep()` here to get features which contained the desired patterns in their names: `sensor_data <- sensor_data[,grep("mean|std",colnames(sensor_data))]`
     
 * Uses descriptive activity names to name the activities in the data set
     * This was also an exercise in subsetting and while I originally had a line for each of the 6 replacements, which is commented out at the bottom of my script I chose to replace this with a loop to replace numerical activity codes with their textual descriptions
@@ -75,4 +86,3 @@ Additional Notes
 ==============
 
 * In the script I periodically utilized `rm()` to free up memory being taken up by variables which were no longer going to be used
-* could have made this into a function but chose not to 
